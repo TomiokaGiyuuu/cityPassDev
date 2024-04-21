@@ -1,0 +1,131 @@
+.headerBack{
+  background-color: #00b2ff;
+  width: 100vw;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}
+
+.bodyWrapper{
+  margin: 50px 0;
+  width: 100%;
+}
+
+.bodyHello{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bodyHello h1{
+  font-size: 48px;
+  margin: 0;
+}
+.bodyHello h2{
+  font-size: 40px;
+  margin: 0 30px 0 0;
+}
+.bodyHello h2 span{
+  color: #00b2ff;
+}
+.bodyHello h3{
+  font-size: 40px;
+  margin: 0;
+}
+
+.inputWrapper{
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 15%;
+  width: 70vw;
+}
+
+.mainInput{
+  width: 100%;
+  color: black;
+  background-color: #f0f4f9;
+  border: 0px;
+  font-size: 18px;
+  border-radius: 20px;
+  padding: 15px 45px 15px 15px;
+}
+
+.inputSend{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 12px;
+}
+
+.faqWrapper{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.faqBlock{
+  padding: 20px 0;
+  border-radius: 20px;
+  background-color: #f0f4f9;
+  height: 300px;
+  width: 230px;
+  margin: 0 10px;
+}
+
+.messageBlock{
+  margin-top: 20px;
+  overflow-y: scroll;
+  max-height: 50vh;
+  width: 100%;
+}
+
+.message{
+  margin: 10px 5px;
+  display: flex;
+}
+
+.message *{
+  padding: 0 5px;
+  text-align: left;
+}
+
+.objectWrapper{
+  text-align: left;
+}
+
+.object{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.objectImg{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.objectName{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*.objectDescription{*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  top: 0;*/
+/*  width: 250px;*/
+/*  height: 50px;*/
+/*  background-color: rgba(128, 128, 128, 0.5);*/
+/*  display: none;*/
+/*}*/
+
+/*.object:hover .objectDescription{*/
+/*  display: block;*/
+/*}*/
