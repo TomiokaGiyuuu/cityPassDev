@@ -1,9 +1,10 @@
 import os
 import openai
+from key1 import KEY
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageContext
 
-openai.api_key = "sk-proj-etcQQ3Du5bZqjQgrKNRWT3BlbkFJJT5z49XtxGsjENFZTCJ1"
-os.environ["OPENAI_API_KEY"] = "sk-proj-etcQQ3Du5bZqjQgrKNRWT3BlbkFJJT5z49XtxGsjENFZTCJ1"
+openai.api_key = KEY
+os.environ["OPENAI_API_KEY"] = KEY
 
 documents = SimpleDirectoryReader('docs').load_data()
 index = VectorStoreIndex.from_documents(documents)

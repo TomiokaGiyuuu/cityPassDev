@@ -1,10 +1,10 @@
 from llama_index.core import StorageContext, load_index_from_storage
 
-# from key1 import KEY
+from key1 import KEY
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "sk-proj-etcQQ3Du5bZqjQgrKNRWT3BlbkFJJT5z49XtxGsjENFZTCJ1"
+os.environ['OPENAI_API_KEY'] = KEY
 
 storage_context = StorageContext.from_defaults(persist_dir='D:\AITU\Hakaton\server\chatbot\Islam\storage')
 
